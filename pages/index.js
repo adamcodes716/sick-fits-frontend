@@ -1,8 +1,9 @@
-const Home = props => (
-    <div>
-    <p>hey</p>
+import Items from '../components/Items';
 
-    </div>
+const Home = props => (
+  <div>
+    <Items />
+  </div>
 );
 
 export default Home;
